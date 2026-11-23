@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display:flex;
+            flex-direction:column;
+            border:1px solid black;
+            width:fit-content;
+            padding:5px;
+        }
+        button{
+          background-color:green;
+          color:white;
+          border:none;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="submit" method="post">
+        <h1>contact us</h1>
+        <label input="username">name</label><br>
+        <input type="text" id="username" placeholder="enter your name"><br>
+        <label input="email">email</label><br>
+        <input type="email" placeholder="enter your email"><br>
+        <label type="subject">subject</label><br>
+        <input type="text" placeholder="enter subject"><br>
+        <label type="message">message</label><br>
+        <textarea id="message" placeholder="enter your message"></textarea><br>
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+
+</html>

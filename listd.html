@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <style type="text/css">
+      .scroll{
+        /* list-style-type: none; */
+        border: 1px solid;
+        height: 150px;
+        width: 200px;
+        overflow:scroll; /* visible | hidden | auto*/
+        /* overflow-y: ; */
+        /* overflow-x: ; */
+      }
+      ul{
+        list-style-type: none;
+      }
+
+      .fixedElems{
+        position: fixed;
+        right: 10px;
+        bottom: 160px;
+        /* background-color: aqua; */
+      }
+      .bi{
+        color:black;
+      }
+
+
+      .question-grid>ol{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+      }
+
+      .question-col>ol{
+        columns: 2;
+      }
+
+      .pagination{
+        display: flex;
+        border: 1px solid;
+        width:fit-content;
+        padding: 5px;
+      }
+      .pagination li{
+        border: 1px solid;
+        padding: 10px 15px;
+        margin: 5px;
+      }
+      .i{
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Web Development</h1> -->
+
+    <ol class="scroll">
+      <li>
+        Frontend
+        <ol type="a">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JS</li>
+          <li>React</li>
+          <li><del>Angular</del></li>
+          <li><del>JQuery</del></li>
+        </ol>
+      </li>
+
+      <li>
+        Backend
+        <ol type="a">
+          <li>Node JS</li>
+          <li>Springboot</li>
+          <li>MongoDB</li>
+        </ol>
+        </p>
+      </li>
+    </ol>
+
+    <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+      <li>list item 5</li>
+      <li>list item 6</li>
+    </ul>
+
+    <ul class="fixedElems">
+      <li class="bi bi-instagram"></li>
+      <li class="bi bi-twitter-x"></li>
+      <li class="bi bi-facebook"></li>
+      <li class="bi bi-youtube"></li>
+    </ul>
+
+    <ol>
+      <li class="question-grid">What is the capital of Brazil?
+        <ol type="a">
+          <li>Washington</li>
+          <li>New Delhi</li>
+          <li>Rio</li>
+          <li>Warsaw</li>
+        </ol>
+      </li>
+    </ol>
+    <ol>
+      <li class="question-col">What is the capital of Brazil?
+        <ol type="a">
+          <li>Washington</li>
+          <li>New Delhi</li>
+          <li>Rio</li>
+          <li>Warsaw</li>
+        </ol>
+      </li>
+    </ol>
+
+    <ul class="pagination">
+      <li>&lt;&lt;</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>&gt;&gt;</li>
+    </ul>
+  <ul>
+    <li><i class="bi bi-tag-fill">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto in beatae! Reiciendis officia corrupti voluptatibus necessitatibus quibusdam inventore esse molestias fugit dolore. Modi reprehenderit fugiat, doloribus iusto eius deserunt.</i></li>
+    <li><i class="bi bi-tag-fill">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit veniam magni dicta repudiandae, repellendus dolor velit hic ut? Dolor doloremque nam laboriosam molestiae. Molestias officiis aspernatur iste doloribus eos.</i></li>
+    <li><i class="bi bi-tag-fill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur deleniti ullam tenetur doloribus sed alias? Facere, necessitatibus nesciunt voluptas, suscipit ad labore consequuntur, quod voluptatibus quia autem eligendi accusantium.</i></li>
+    <li><i class="bi bi-tag-fill">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium architecto, eligendi repellendus iste nihil nulla nam veniam rem voluptas sequi doloremque magni dignissimos ut placeat maiores rerum beatae a temporibus.</i></li>
+  </ul>
+
+  </body>
+</html>
